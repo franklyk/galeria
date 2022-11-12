@@ -1,0 +1,13 @@
+$vermelho: red;
+$azul: blue;
+$pequeno: 600px;
+
+.container {
+    background-color: $vermelho;
+    width: $pequeno;
+
+
+    h1 {
+        color: $azul;
+    }
+}
