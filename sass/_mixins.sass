@@ -23,6 +23,11 @@
     &:hover
         background-size: 110%
         filter: grayscale(0%)
-        background-color: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/#{$img}')
-    
+        background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/#{$img}')
+
+
+@mixin mobile
+    @media(max-width: 425px)
+        @content
+        
     
